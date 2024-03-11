@@ -24,4 +24,5 @@ public class Debtor
 	{
 		return $"{this.FullName} | {this.BirthDay.ToShortDateString()} | {this.Phone} | {this.Email} | {this.Address} | Debt : {this.Debt} AZN";
 	}
+
 }
